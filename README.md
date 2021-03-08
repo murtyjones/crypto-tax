@@ -1,8 +1,19 @@
-# typescript-eslint-prettier-boilerplate
+*Disclaimer*: This code is for informational purposes only and is not guaranteed to correctly calculate your tax liability.
 
-Simple boilerplate with TypeScript, Prettier, and ESLint configured.
+One of the best parts of owning cryptocurrency is the opportunity to pay taxes when you sell it. This repo calculates your gains on crypto sales and indicates whether those gains should be characterized as long-term (held for >1 year) or short-term.
 
-## Getting Started
-Install node modules: `npm install`
+# Example Inputs
 
-Run the code with auto restart: `npm run dev`
+## buys.csv
+
+```csv
+date,side,amount,price,fees,total minus fees
+2015-05-02T20:06:02Z,Buy,1,47889.9,0,47889.9
+```
+
+## sells.csv
+
+```csv
+date,side,amount,price,fees,total minus fees
+2015-05-02T20:06:02Z,Sell,1,47889.9,0,47889.9
+```
