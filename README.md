@@ -4,11 +4,14 @@ One of the best parts of owning cryptocurrency is the opportunity to pay taxes w
 
 # Example Inputs
 
+You should be able to get these inputs in roughly this format from whatever exchange you use (Kraken, Coinbase, Binance, etc.)
+
 ## buys.csv
 
 ```csv
 date,side,amount,price,fees,total minus fees
 2015-05-02T20:06:02Z,Buy,1,47889.9,0,47889.9
+...
 ```
 
 ## sells.csv
@@ -16,4 +19,5 @@ date,side,amount,price,fees,total minus fees
 ```csv
 date,side,amount,price,fees,total minus fees
 2015-05-02T20:06:02Z,Sell,1,47889.9,0,47889.9
+...
 ```
